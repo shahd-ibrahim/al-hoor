@@ -14,7 +14,7 @@
   <style>
     body { font-family: 'Tajawal', sans-serif; }
     .glass-header {
-      background: rgba(255, 255, 255, 0.95);
+      background: rgba(255, 255, 255, 0.96);
       backdrop-filter: blur(12px);
       -webkit-backdrop-filter: blur(12px);
     }
@@ -52,18 +52,18 @@
     </p>
   </div>
 
-  <!-- Header / Navigation -->
+  <!-- Header / Navigation with Logo -->
   <header class="glass-header border-b border-slate-200 sticky top-0 z-40 shadow-sm">
-    <div class="max-w-6xl mx-auto px-4 py-3.5 flex items-center justify-between">
-      <div class="flex items-center gap-3">
-        <div class="w-11 h-11 rounded-2xl bg-gradient-to-br from-emerald-600 to-teal-500 flex items-center justify-center font-black text-white text-2xl shadow-md shadow-emerald-500/20">
-          ح
-        </div>
-        <div>
-          <span class="font-black text-xl text-slate-900 block leading-tight">الحور للخدمات</span>
+    <div class="max-w-6xl mx-auto px-4 py-2.5 flex items-center justify-between">
+      
+      <!-- Brand Logo in Header -->
+      <a href="#" class="flex items-center gap-3">
+        <img src="logo.png" alt="شعار الحور للخدمات" class="h-10 sm:h-12 w-auto object-contain">
+        <div class="hidden sm:block border-r border-slate-200 pr-3">
+          <span class="font-black text-lg text-slate-900 block leading-tight">الحور للخدمات</span>
           <span class="text-[11px] text-emerald-700 font-bold">وسيط تمويل معتمد بالمملكة</span>
         </div>
-      </div>
+      </a>
 
       <nav class="hidden md:flex items-center gap-6 text-sm font-bold text-slate-600">
         <a href="#services" class="hover:text-emerald-600 transition">خدماتنا</a>
@@ -81,15 +81,15 @@
     </div>
   </header>
 
-  <!-- Hero Section -->
-  <section class="max-w-6xl mx-auto px-4 pt-10 pb-16">
+  <!-- Hero Section with Brand Logo -->
+  <section class="max-w-6xl mx-auto px-4 pt-8 pb-16">
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
       
       <!-- Right Content Column -->
-      <div class="lg:col-span-7 space-y-6 text-center lg:text-right">
-        <div class="inline-flex items-center gap-2 bg-emerald-50 border border-emerald-200 px-4 py-1.5 rounded-full text-xs font-bold text-emerald-800">
-          <span>🏛️</span>
-          <span>وساطة معتمدة لربطك بجهات التمويل الرسمية</span>
+      <div class="lg:col-span-7 space-y-5 text-center lg:text-right">
+        <div class="inline-flex items-center gap-3 bg-white border border-slate-200 px-4 py-2 rounded-2xl shadow-sm">
+          <img src="logo.png" alt="الحور للخدمات" class="h-8 w-auto object-contain">
+          <span class="text-xs font-bold text-slate-700">وساطة معتمدة لربطك بجهات التمويل الرسمية</span>
         </div>
 
         <h1 class="text-3xl sm:text-5xl font-black text-slate-900 leading-tight tracking-tight">
@@ -131,11 +131,17 @@
         </div>
       </div>
 
-      <!-- Left Lead Form Column -->
+      <!-- Left Lead Form Column with Logo -->
       <div id="quote-form" class="lg:col-span-5">
         <div class="bg-white border border-slate-200 rounded-3xl p-6 sm:p-8 shadow-xl shadow-slate-200/50 relative overflow-hidden">
-          <div class="space-y-2 mb-5 text-right">
-            <h3 class="text-xl font-black text-slate-900">اطلب عرضك التمويلي الآن</h3>
+          
+          <div class="flex items-center justify-between mb-4 border-b border-slate-100 pb-3">
+            <img src="logo.png" alt="شعار الحور للخدمات" class="h-9 w-auto object-contain">
+            <span class="text-[11px] font-bold text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-lg">طلب فوري معتمد</span>
+          </div>
+
+          <div class="space-y-1 mb-5 text-right">
+            <h3 class="text-lg font-black text-slate-900">اطلب عرضك التمويلي الآن</h3>
             <p class="text-xs text-slate-500">املأ البيانات لنوجّه طلبك إلى أفضل جهة تمويل مرخّصة تناسب راتبك.</p>
           </div>
 
@@ -370,9 +376,12 @@
     </div>
   </section>
 
-  <!-- Final CTA Banner -->
+  <!-- Final CTA Banner with Logo -->
   <section class="max-w-4xl mx-auto px-4 pb-14">
     <div class="bg-gradient-to-r from-emerald-800 via-teal-700 to-slate-900 rounded-3xl p-8 text-center space-y-4 shadow-xl text-white">
+      <div class="flex justify-center">
+        <img src="logo.png" alt="الحور للخدمات" class="h-12 w-auto object-contain bg-white/90 p-1.5 rounded-xl">
+      </div>
       <h3 class="text-2xl sm:text-3xl font-black">جاهز تبدأ طلبك التمويلي؟</h3>
       <p class="text-xs sm:text-sm text-emerald-100 max-w-lg mx-auto">تواصل معنا الآن عبر واتساب لمعرفة أهليتك والشروط المناسبة لراتبك في دقائق معدودة.</p>
       <div>
@@ -396,10 +405,13 @@
     </a>
   </aside>
 
-  <!-- Legal Footer -->
+  <!-- Legal Footer with Logo -->
   <footer class="border-t border-slate-200 bg-white py-10 px-4 text-center text-xs text-slate-500 space-y-4">
-    <div class="max-w-4xl mx-auto space-y-2">
-      <p class="font-bold text-slate-800">المشغّل القانوني: شركة أسس الجزيرة الحديثة (ذ.م.م شخص واحد)</p>
+    <div class="max-w-4xl mx-auto space-y-3">
+      <div class="flex justify-center mb-1">
+        <img src="logo.png" alt="الحور للخدمات" class="h-12 w-auto object-contain">
+      </div>
+      <p class="font-bold text-slate-800 text-sm">المشغّل القانوني: شركة أسس الجزيرة الحديثة (ذ.م.م شخص واحد)</p>
       <p>الرقم الوطني الموحد: 7050328710 | الرياض، المملكة العربية السعودية | هاتف: +966590208280</p>
       <p class="text-[11px] leading-relaxed max-w-2xl mx-auto pt-2 text-slate-400">
         تنبيه: الخدمة مخصصة للمواطنين والمقيمين بالمملكة من عمر 18 سنة فما فوق. لسنا جهة مصرفية أو مانحة للقروض؛ الموافقة ونسبة التكلفة تحددها جهات التمويل وحدها ولا نطلب أي مبالغ مسبقة.
